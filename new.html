@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="tit">NEW BUDGET</h1>
+    <header>    
+        <div class="box">                         
+            <nav>
+                <ul>
+                    <li><a href="novo.html">NEW</a></li>
+                    <li><a href="usado.html">USED</a></li>
+                </ul>
+            </nav>    
+        </div> 
+    </header>
+
+    <div class="asks">
+        <h3>Enter current console value</h3>
+        <input type="number" id="console" class="input-standard">
+
+        <h3>Enter current game value<h3>
+        <input type="number" id="game" class="input-standard">
+
+        <h3>Enter the current SDcard amount<h3>
+        <input type="number" id="card" class="input-standard">
+
+        <h3>Enter the current protection value<h3>
+        <input type="number" id="kit" class="input-standard">
+
+        <input type="button" onclick="start()" value="CALCULAR" class="send">
+    </div>      
+
+    <script src="index.js"></script>
+</body>
+</html>
